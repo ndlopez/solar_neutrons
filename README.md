@@ -2,7 +2,7 @@
 
 Data analysis of the Solar-Neutron Telescopes (SNTs) installed at 7 different locations around the world.<br>
 
-Mt.Norikura, JP; Mt. Chacaltaya, BO; Mt. Jungfraujoch, Ch; Mt. Sierra Negra, Mx; Tibet, Cn, Mt.MaunaKea, Us; Mt. Aragats, Am. <br>
+Mt.Norikura(JP), Mt. Chacaltaya(BO), Mt. Jungfraujoch (CH), Mt. Sierra Negra(MX), Tibet(CN), Mt.MaunaKea(Us), Mt. Aragats(AM). <br>
 
 The project is a cooperation between Nagoya University, Bern University, Universidad Nacional Aut\'onoma de Mexico, and Universidad Mayor de San Andr\'es.<br>
 
@@ -15,9 +15,12 @@ More info at [Nagoya University:ISEE](https://isee.nagoya-u.ac.jp)
 2. <surv_prob.cpp> Calculate the survival probability of neutrons coming from the Sun.<br>
 Requires [CERN's ROOT](https://root.cern.ch) (C++ Framework)
 
-3. <Run_Shibata.sh> Runs Shibata code (written in Fortran) and outputs data
+3. <Run_Shibata.sh> Runs [Shibata Model Simulation](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/93JA03175) and outputs data
 
 *Environment*: NEC Esprimo Core i3
+
 *OS*: Debian stretch
+
 *Editor*: Emacs
-*Data wrangler*: AWK, SED
+
+*Data wranglers*: AWK, SED
